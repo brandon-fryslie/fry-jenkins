@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  jenkins:
+    image: brandonfryslie/jenkins
+    ports:
+      - '8080:8080'
+  #   volumes:
+  #     - data-volume:/var/jenkins_home
+  # data:
+  #   image: brandonfryslie/data-container
+  #   command: bash -c "sleep infinity"
+  #   volumes:
+  #     - data-volume:/home/jenkins/data
+#
+# volumes:
+#   data-volume:
